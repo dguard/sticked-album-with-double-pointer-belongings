@@ -1,0 +1,50 @@
+.sticked-album-rest {
+    /*width: calc(1400px * 0.4);*/
+    height: calc(350px * 0.4);
+    width: calc(2100px * 0.5);
+    max-width: calc(1600px * 0.5);
+    float: left;
+}
+.sticked-album-rest > .sticked:nth-child(1) {
+    width: calc(700px * 0.4);
+    height: calc(350px * 0.4);
+    border: 1px solid;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+.sticked-album-rest > .sticked:nth-child(2) {
+    width: calc(700px * 0.4);
+    height: calc(350px * 0.4);
+    border: 1px solid;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+
+    margin-left: calc(-250px * 0.7);
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+    background: white;
+    margin-right: 190px;
+}
+.sticked-album-rest > .sticked:nth-child(/*2+1*/ 3) {
+    width: calc(700px * 0.4);
+    height: calc(350px * 0.4);
+    border: 1px solid;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+
+    margin-left: calc(-250px * 0.4);
+    /*margin-top: 50px;*/
+    position: relative;
+    background: white;
+}
+.sticked-album-rest .sticked-sequence {
+    width: calc(1400px * 0.4);
+    height: calc(350px * 0.4);
+}
